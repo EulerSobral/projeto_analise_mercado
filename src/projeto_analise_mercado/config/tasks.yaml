@@ -1,0 +1,23 @@
+pesquisa_mercado:
+  description: >
+    Faça uma pesquisa sobre o mercado do setor {topic}.  
+    Pesquise até {current_year}
+  expected_output: >
+    Colete dados sobre o setor {topic}, indentifique as tendências, ameaças, empresas e pessoas chaves do setor {topic}
+  agent: pesquisador_mercado
+
+analise_mercado:
+  description: >
+    Examine os dados coletados pelo pesquisador_mercado
+  expected_output: >
+    Examine os dados coletados, buscando padrões, ameaças, tendências emergentes e a dinâmica do setor
+  agent: analista_tendencia 
+
+relatorio:
+  description: >
+    Faça um relatorio conciso e de fácil compreensão
+  expected_output: >
+    Faça um relatorio de fácil compreensão utilizando o modelo de resumo executivo. 
+    Formate esse relatorio para um arquivo do tipo html, formate o arquivo de acordo com a formatção do html. 
+    Por exemplo, <h1>Título</h1> e <p>paragrafo</p>
+  agent: analista_tendencia
