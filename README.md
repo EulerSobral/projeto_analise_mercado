@@ -13,7 +13,7 @@ Criei três agentes para esse projeto. O primeiro agente, denominado analista de
 
 Caso não tenha o crewai instalado em sua máquina, siga os seguintes procedimentos. 
 - Instale o uv
-    No MacOs: ´´´curl -LsSf https://astral.sh/uv/install.sh | sh´´´
+    No MacOs: ´curl -LsSf https://astral.sh/uv/install.sh | sh
 
 Ensure you have Python >=3.10 <3.13 installed on your system. This project uses [UV](https://docs.astral.sh/uv/) for dependency management and package handling, offering a seamless setup and execution experience.
 
