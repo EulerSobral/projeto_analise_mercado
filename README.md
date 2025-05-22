@@ -1,6 +1,6 @@
 # Projeto Analise de Mercado Financeiro
 
-A ideia desse projeto é utilizar sistemas multiagentes para fazer um resumo corporativo sobre determinado mercado ou setor, como, por exemplo, o Tecnologia da Informação.  
+A ideia desse projeto é utilizar sistemas multiagentes para fazer um resumo corporativo sobre determinado mercado ou setor, como, por exemplo, Tecnologia da Informação.  
 Criei três agentes para esse projeto. O primeiro agente, denominado analista de mercado, faz pesquisas sobre determinado setor financeiro retornando dados relevantes sobre o mercado, identificando tendências ,as principais empresas e as pessoas mais influentes desse setor. O segundo agente, denominado analista de tendências, examina os dados coletados pelo agente analista de mercado, identificando padrões, tendências, oportunidades e ameaças para o setor em quesão. O terceiro agente, denominado Redator de mercado, é responsável por gerar um relatório resumido e de fácil compreensão utilizando o modelo de resumo coorporativo sobre as informações fornecidas pelo analista de tendências, ele vai retornar esse relatório em um arquivo do tipo relatorio.html
 
 ## Tecnologias Utilizadas no desenvolvimento desse projeto 
