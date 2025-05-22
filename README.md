@@ -1,8 +1,19 @@
-# ProjetoAnaliseMercado Crew
+# Projeto Analise de Mercado Financeiro
 
-Welcome to the ProjetoAnaliseMercado Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
+A ideia desse projeto é utilizar sistemas multiagentes para fazer um resumo corporativo sobre determinado mercado ou setor, como, por exemplo, o Tecnologia da Informação.  
+Criei três agentes para esse projeto. O primeiro agente, denominado analista de mercado, faz pesquisas sobre determinado setor financeiro retornando dados relevantes sobre o mercado, identificando tendências ,as principais empresas e as pessoas mais influentes desse setor. O segundo agente, denominado analista de tendências, examina os dados coletados pelo agente analista de mercado, identificando padrões, tendências, oportunidades e ameaças para o setor em quesão. O terceiro agente, denominado Redator de mercado, é responsável por gerar um relatório resumido e de fácil compreensão utilizando o modelo de resumo coorporativo sobre as informações fornecidas pelo analista de tendências, ele vai retornar esse relatório em um arquivo do tipo relatorio.html
 
-## Installation
+## Tecnologias Utilizadas no desenvolvimento desse projeto 
+- Python 3.13.1
+- uv 0.7.5
+- crewai 0.120.1
+- Sistema Operacional Windows 10
+  
+## Instalação do Projeto
+
+Caso não tenha o crewai instalado em sua máquina, siga os seguintes procedimentos. 
+- Instale o uv
+    No MacOs: ´´´curl -LsSf https://astral.sh/uv/install.sh | sh´´´
 
 Ensure you have Python >=3.10 <3.13 installed on your system. This project uses [UV](https://docs.astral.sh/uv/) for dependency management and package handling, offering a seamless setup and execution experience.
 
